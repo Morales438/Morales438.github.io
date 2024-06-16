@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+.bg-warning{
+	background-color:#47C88E !important;
+	color:#F9F9F9;
+}.bg-warning
+.navbar-light .navbar-brand{
+	color: #F1F4F1;
+}
+.nav-lingt .navbar-nav .nav-link{
+	color:rgba(3,3,3,1.0);
+}
+.nav-light  .navbar-nav .nav-link:hover{
+	color:#78EC99;
+	font-weight: bold;
+}
+.navbar-linght .navbar-brand:hover{
+	color:#070606;
+}
+.carousel-caption{
+	background-color: rgba(2,2,2,0.16)
+}
+.pie01{
+	background-color:#78EC93;
+	color:#060606;
+}
+.pie01 a{
+	color:#050505;
+}
+.pie01 a:hover{
+	color:#FBFCF9;
+}
+.Pie02{
+	background-color:#030100;
+	color:#7E8FB5;
+	text-align: center;
+}
+
+
+
