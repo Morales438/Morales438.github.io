@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+body header {
+	background-color:#000000;
+	text-align:center;
+	color:#EDA9AB;
+	text-shadow: 2px 2px #060606;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 50;
+}
+body footer {
+	position: relative;
+	top:28em;
+	background-color: #000000;
+	text-align: left;
+	color:#FFFFFF;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+.descripcion{
+	width: 500px;
+	background-color: #F5CACB;
+	text-align: left;
+	font-size: 25px;
+	border-top-right-radius: 30px;
+	border-top-left-radius: 90px;
+	padding-top: 0em;
+	padding-right: 1em;
+	padding-bottom: 1em;
+	padding-left: 2em;
+	display: inline;
+	border-style:double;
+	border-color: #000000;
+	/*-webkit-box-shadow: 12px 12px 0px 3px #d5d4d4;*/
+	/*box-shadow: 12px 12px 0px 3px #d5d4d4;*/
+	position:absolute;
+	left:50%;
+	-webkit-transform:translate(-50%,0%);
+	margin-top:1em;
+		
+}
+.menu{
+	color:#F8F7AF;
+	margin-top: 1px;
+	padding-top:  1px;
+	padding-bottom: 0px;
+	padding-left:  10px;
+	padding-right:  5px;
+	background-color: #121111;
+	text-align: center;
+	position: relative;
+
+}
+.menu ul{
+	background-color: #121111;
+	margin:9px;
+	padding:  0px;
+	border:  0px solid #7c7c7c;
+	overflow: hidden;
+	list-style-type:  none;
+}
+.menu ul li{
+	float:left;
+	width:  120px;
+}
+.menu ul li:hover{
+	background-color:rgba(231,219,219,1.00);
+}
+ul li a{
+	border-left:  0px solid #D13313FF;
+	border-right:  0 px solid #7C7C7C;
+	padding:  1em;
+	display: block;
+	text-decoration: none;
+}
+ul li a:hover{
+	color:#F40E0E;
+}
+
+
+
